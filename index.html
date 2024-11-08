@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Los mejores viajes para vos, tu familia y amigos VIAJEUY">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>VIAJAUY</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#"><img src="img/logoChico.png" alt="Logo de VIAJAUY"></a>
+        <nav>
+            <a href="#buscador">BUSCADOR</a>
+            <a href="#paquetes">PAQUETES</a>
+            <a href="#acercaDe">ACERCA DE</a>
+            <a href="#destinos">DESTINOS</a>
+            <a href="#horarios">HORARIOS</a>
+        </nav>
+    </header>
+
+    <section id="buscador">
+        <div class="contenedor">
+            <div id="buscador-header">
+                <h1>VIAJAUY</h1>
+                <h2>Viajá a dónde te lleve tu imaginación</h2>
+            </div>
+            <div id="buscador-form">
+                <form>
+                    <div id="form-column">
+                        <div id="form-first-column">
+                            <label for="inputOrigen">Origen</label>
+                            <input type="text" id="inputOrigen" placeholder="Montevideo" required>
+
+                            <label for="inputInicioViaje">Inicio del viaje</label>
+                            <input type="date" id="inputInicioViaje" required>
+
+                            <label for="inputCantPasajeros">Cantidad de pasajeros</label>
+                            <input type="number" id="inputCantPasajeros" required>
+                        </div>
+
+                        <div id="form-second-column">
+
+                            <label for="inputDestino">Destino</label>
+                            <input type="text" id="inputDestino" placeholder="Europa" required>
+
+
+                            <label for="inputFinViaje">Fin del viaje</label>
+                            <input type="date" id="inputFinViaje" required>
+
+                            <label for="inputHotel">Búsqueda con hotel</label>
+                            <select id="inputHotel">
+                                <option value="Si">Sí</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="form-button">
+                        <input type="submit" value="BUSCAR LOS MEJORES PRECIOS" id="sendButton">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="paquetes">
+        <div class="contenedor">
+            <h2>PAQUETES POPULARES</h2>
+            <p>Precios en base doble</p>
+
+            <div id="articlesPaquetes">
+                <article>
+                    <div class="paquetes-img">
+                        <img src="img/caribe.webp" alt="Imagen del Caribe">
+                    </div>
+                    <div class="paquetes-info">
+                        <h3><strong>Caribe</strong></h3>
+                        <p>1050 <small>USD</small></p>
+                        <ul>
+                            <li>Duración: 7 días</li>
+                            <li>Alojamiento: 6 noches en hotel 5 estrellas</li>
+                            <li>Modalidad: All inclusive</li>
+                            <li>Incluye vuelos ida y vuelta</li>
+                            <li>Traslados al aeropuerto</li>
+                        </ul>
+                    </div>
+                    <div id="aCont">
+                        <a href="#">CONOCER MÁS</a>
+                    </div>
+
+                </article>
+
+                <article>
+                    <div class="paquetes-img">
+                        <img src="img/europa.webp" alt="Imagen del Europa">
+                    </div>
+                    <div class="paquetes-info">
+                        <h3><strong>EUROPA</strong></h3>
+                        <p>4500 <small>USD</small></p>
+                        <ul>
+                            <li>Duración: 15 días</li>
+                            <li>Alojamiento: 14 noches en hotel 4 estrellas</li>
+                            <li>Modalidad: Desayuno incluido</li>
+                            <li>Incluye vuelos ida y vuelta</li>
+                            <li>Traslados al aeropuerto</li>
+                        </ul>
+                    </div>
+                    <div id="aCont">
+                        <a href="#">CONOCER MÁS</a>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="paquetes-img">
+                        <img src="img/africa.webp" alt="Imagen del África">
+                    </div>
+                    <div class="paquetes-info">
+                        <h3><strong>ASIA Y ÁFRICA</strong></h3>
+                        <p>7850 <small>USD</small></p>
+                        <ul>
+                            <li>Duración: 30 días</li>
+                            <li>Alojamiento: 29 noches en hotel 5 estrellas</li>
+                            <li>Modalidad: No incluye comidas</li>
+                            <li>Incluye vuelos ida y vuelta</li>
+                            <li>Traslados al aeropuerto</li>
+                        </ul>
+                    </div>
+                    <div id="aCont">
+                        <a href="#">CONOCER MÁS</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="acercaDe">
+        <div class="contenedor">
+            <div id="acercaDe-text">
+                <h2>TU COMPAÑERO DE VIAJES POR EL MUNDO</h2>
+                <p>
+                    En <strong>VIAJAUY</strong>, creemos que viajar es mucho más que solo visitar nuevos lugares, es una
+                    oportunidad para crear recuerdos inolvidables, descubrir culturas y vivir experiencias únicas. Desde
+                    nuestra fundación, nos hemos dedicado a ofrecer a nuestros clientes paquetes personalizados y
+                    accesibles para todo tipo de viajeros, desde aventureros intrépidos hasta quienes buscan el máximo
+                    confort.
+                </p>
+                <p>
+                    <br>
+                    Con una pasión por la excelencia y el compromiso de hacer cada viaje especial, nos enorgullece ser
+                    una de las agencias de viajes más confiables. <strong>¡Deja que VIAJAUY te lleve al destino de tus
+                        sueños!</strong>
+                </p>
+            </div>
+            <img src="img/viajeAmigos.webp" alt="Imagen de amigos viajando">
+        </div>
+    </section>
+
+    <section id="destinos" class="contenedor">
+
+        <h2>DESTINOS ÉXOTICOS</h2>
+
+        <div class="parent">
+            <div class="div1"><img class="large" src="img/que-visitar-en-tenerife-2.jpg" alt="Imagen de Tenerife"></div>
+            <div class="div2"><img src="img/image (11).webp" alt="Imagen de Buzios"></div>
+            <div class="div3"><img src="img/rio.webp" alt="Imagen de Rio de Janeiro"></div>
+            <div class="div4"><img src="img/mendoza.webp" alt="Imagen de Mendoza"></div>
+            <div class="div5"><img src="img/image (13).jfif" alt="Imagen de Noruega"></div>
+            <div class="div6"><img src="img/paisaje1.jfif" alt="Imagen de Escocia"></div>
+        </div>
+
+    </section>
+
+    <section id="horarios">
+        <div class="contenedor">
+            <h2><u>Horarios</u></h2>
+            <table>
+                <thead>
+                    <!--Definicion de Headers...-->
+                    <tr>
+                        <th>Sede</th>
+                        <th>L a V</th>
+                        <th>Sábados</th>
+                        <th>Domingos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Definicion de Contenido...-->
+                    <tr>
+                        <td>Prado</td>
+                        <td>10:00-18:00</td>
+                        <td>10:00-13:00</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>Centro</td>
+                        <td>10:00-18:00</td>
+                        <td>10:00-13:00</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>Pocitos</td>
+                        <td>10:00-18:00</td>
+                        <td>10:00-13:00</td>
+                        <td>Cerrado</td>
+                    </tr>
+                    <tr>
+                        <td>Carrasco</td>
+                        <td>10:00-18:00</td>
+                        <td>Cerrado</td>
+                        <td>Cerrado</td>
+                    </tr>
+                    <tr>
+                        <td>El Pinar</td>
+                        <td>12:00-19:00</td>
+                        <td>Cerrado</td>
+                        <td>Cerrado</td>
+                    </tr>
+                    <tr>
+                        <td>Maldonado</td>
+                        <td>11:00-19:00</td>
+                        <td>Cerrado</td>
+                        <td>Cerrado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="lastSection">
+        <div class="contenedor">
+            <div id="articlesPaquetes">
+                <article>
+                    <div class="paquetes-img">
+                        <img src="img/viaje.jpg" alt="Imagen ilustrativa de un viaje">
+                    </div>
+                    <div class="paquetes-info">
+                        <h3><strong>COTIZÁ TU VIAJE</strong></h3>
+
+                        <p>Planifica tu próxima aventura con nosotros. Obtén una cotización personalizada y descubre los destinos más fascinantes. Te ayudamos a elegir opciones que se adapten a tus necesidades y presupuesto para que vivas una experiencia inolvidable.</p>
+                    </div>
+                    <div id="aCont">
+                        <a href="#buscador">COMENZAR BÚSQUEDA</a>
+                    </div>
+
+                </article>
+
+                <article>
+                    <div class="paquetes-img">
+                        <img src="img/horarios.jpg" alt="Imagen ilustrativa de horarios">
+                    </div>
+                    <div class="paquetes-info">
+                        <h3><strong>HORARIOS</strong></h3>
+                        <p>Consulta los horarios de vuelos, tours y transporte local para organizar cada detalle de tu viaje. Mantente informado con nuestra guía actualizada y asegúrate de no perderte ninguna actividad planeada.</p>
+                    </div>
+                    <div id="aCont">
+                        <a href="#horarios">CONSULTAR HORARIOS</a>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="paquetes-img">
+                        <img src="img/paquetes.jpg" alt="Imagen ilustrativa de paquetes">
+                    </div>
+                    <div class="paquetes-info">
+                        <h3><strong>PAQUETES</strong></h3>
+                        <p>Explora nuestros paquetes más populares y encuentra ofertas increíbles para tus destinos soñados. Desde escapadas de fin de semana hasta vacaciones prolongadas, tenemos opciones para todo tipo de viajeros.</p>
+                    </div>
+                    <div id="aCont">
+                        <a href="#paquetes">PAQUETES POPULARES</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#"><img src="img/logoChico.png" alt="Logo de VIAJAUY"></a>
+
+        <div id="redes">
+            <a href="https://www.instagram.com" target="_blank"><img src="img/instagramv2.png" alt="Logo de Instagram"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Logo de Facebook"></a>
+            <a href="https://www.x.com" target="_blank"><img src="img/twitter.png" alt="Logo de Twitter"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
