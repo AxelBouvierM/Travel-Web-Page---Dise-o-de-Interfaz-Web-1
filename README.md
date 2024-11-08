@@ -1,4 +1,5 @@
 VIAJAUY 🌎✈️
+
 VIAJAUY es una página web de viajes creada para un obligatorio de la materia Diseño de Interfaz Web en la Facultad de Ingeniería de la Universidad ORT, Uruguay. Este proyecto tiene como objetivo presentar opciones de paquetes turísticos a diversos destinos, permitiendo a los usuarios explorar las características y precios de cada viaje.
 
 Demo 📸
@@ -8,6 +9,7 @@ Tecnologías 🛠️
 - CSS3: para el diseño visual y estilizado de los elementos.
 
 Descripción 📖
+
 El proyecto presenta una interfaz atractiva y profesional para mostrar paquetes de viajes, enfocándose en:
 
 - Estética coherente: Tipografías, colores y elementos visuales alineados con el tema de turismo.
@@ -19,6 +21,7 @@ La página incluye:
 - Navegación por anclas: Menú superior para una navegación rápida por las secciones del sitio.
 
 Requisitos del Proyecto 📝
+
 Este proyecto se desarrolló de acuerdo con el siguiente lineamiento:
 
 - Wireframe: La estructura visual sigue un wireframe proporcionado.
