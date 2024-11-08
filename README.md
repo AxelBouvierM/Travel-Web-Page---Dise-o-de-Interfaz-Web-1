@@ -1,14 +1,14 @@
-VIAJAUY 🌎✈️
+#VIAJAUY 🌎✈️
 
 VIAJAUY es una página web de viajes creada para un obligatorio de la materia Diseño de Interfaz Web en la Facultad de Ingeniería de la Universidad ORT, Uruguay. Este proyecto tiene como objetivo presentar opciones de paquetes turísticos a diversos destinos, permitiendo a los usuarios explorar las características y precios de cada viaje.
 
-Demo 📸
+##Demo 📸
 
-Tecnologías 🛠️
+###Tecnologías 🛠️
 - HTML5: para la estructura semántica y organización del contenido.
 - CSS3: para el diseño visual y estilizado de los elementos.
 
-Descripción 📖
+###Descripción 📖
 
 El proyecto presenta una interfaz atractiva y profesional para mostrar paquetes de viajes, enfocándose en:
 
@@ -20,7 +20,7 @@ La página incluye:
 - Paquetes de viajes: Información detallada de cada destino, con imágenes y especificaciones como duración, alojamiento y modalidad.
 - Navegación por anclas: Menú superior para una navegación rápida por las secciones del sitio.
 
-Requisitos del Proyecto 📝
+###Requisitos del Proyecto 📝
 
 Este proyecto se desarrolló de acuerdo con el siguiente lineamiento:
 
@@ -30,27 +30,29 @@ Este proyecto se desarrolló de acuerdo con el siguiente lineamiento:
 - Tipografías y elementos visuales: Selección coherente de fuentes, íconos e imágenes.
 - Validación de formulario: Campos obligatorios y validación de entrada a través de HTML y CSS.
 
-Funcionalidades ✨
+###Funcionalidades ✨
 - Exploración de destinos: Cada paquete de viaje incluye una descripción detallada, imágenes y precios.
 - Interacción visual: Animaciones de hover en botones y elementos interactivos.
 - Navegación simple y clara: Sistema de anclaje para desplazarse fácilmente a las diferentes secciones del sitio.
 
-Instalación 🚀
+###Instalación 🚀
+
 Para visualizar el proyecto localmente:
 
 Clona este repositorio:
-```git clone https://github.com/usuario/VIAJAUY.git```
+```[git clone https://github.com/AxelBouvierM/Travel-Web-Page-DIW1.git```
 Navega al directorio del proyecto y abre el archivo index.html en tu navegador preferido.
 
-Capturas de pantalla 📸
+###Capturas de pantalla 📸
 ![image](https://github.com/user-attachments/assets/1f6786f4-a9cb-4ff5-8472-bca440dab552)
 ![image](https://github.com/user-attachments/assets/c944945a-6c20-429f-944a-12667ccb9653)
 
 
-Futuras Mejoras 🌟
+###Futuras Mejoras 🌟
 - Responsividad: Adaptar el diseño para dispositivos móviles.
 - Interactividad: Añadir funcionalidad con JavaScript para un mayor dinamismo.
 - Nuevas secciones: Integrar una sección de opiniones de clientes y galería de imágenes.
   
-Autor 👨‍💻
+###Autor 👨‍💻
+
 Desarrollado por Axel Bouvier.
