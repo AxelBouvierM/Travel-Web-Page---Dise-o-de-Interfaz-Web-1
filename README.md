@@ -1,4 +1,4 @@
-#VIAJAUY 🌎✈️
+#VIAJAUY# 🌎✈️
 
 VIAJAUY es una página web de viajes creada para un obligatorio de la materia Diseño de Interfaz Web en la Facultad de Ingeniería de la Universidad ORT, Uruguay. Este proyecto tiene como objetivo presentar opciones de paquetes turísticos a diversos destinos, permitiendo a los usuarios explorar las características y precios de cada viaje.
 
