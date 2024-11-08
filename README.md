@@ -40,7 +40,7 @@ Este proyecto se desarrolló de acuerdo con el siguiente lineamiento:
 Para visualizar el proyecto localmente:
 
 Clona este repositorio:
-```[git clone https://github.com/AxelBouvierM/Travel-Web-Page-DIW1.git```
+```git clone https://github.com/AxelBouvierM/Travel-Web-Page-DIW1.git```
 Navega al directorio del proyecto y abre el archivo index.html en tu navegador preferido.
 
 ### Capturas de pantalla 📸
